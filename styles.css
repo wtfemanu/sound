@@ -1,0 +1,171 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5%;
+  background-color: #fff;
+}
+
+header .logoprincipal {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0vw 0 6vw;
+}
+
+header nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.main-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around ;
+  padding: 4vw;
+  margin-top: 30px;
+}
+
+.image-section img {
+  width: 300px;
+  height: auto;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+.text-section {
+  max-width: 500px;
+}
+
+.text-section h1 {
+  font-size: 36px;
+  font-weight: 300; 
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.text-section .quote {
+  font-size: 12px;
+  margin-bottom: 30px;
+  color: #747373;
+}
+
+.text {
+  margin-left: 50px;
+  font-size: 10px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+}
+
+.author img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.author span {
+  font-weight: 500;
+  color: #000000;
+}
+
+
+.case-study-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 5%;
+  align-items: flex-start; 
+}
+
+.case-study {
+  max-width: 40%; 
+}
+
+.case-study h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: 300; 
+  color: #000000;
+}
+
+.case-study p {
+  font-size: 12px;
+  margin-bottom: 30px;
+  color: #000000;
+}
+
+.case-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  max-width: 40%; 
+}
+
+.case-list::before {
+  content: "";
+  position: absolute;
+  left: 30px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+ 
+}
+
+.case-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  position: relative;
+  padding-left: 60px;
+  margin-top: 50px;
+}
+
+.case-item .case-number {
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 0;
+}
+
+.case-item .case-content h3 {
+  font-size: 20px;
+  font-weight: 300;
+}
+.case-number{
+  color: #aaaaaa;
+
+}
+.case-item .case-content p {
+  font-size: 10px;
+  color: #666;
+}
+
+footer {
+  padding: 20px 5%;
+  background-color: #fff;
+  text-align: center;
+}
+
+footer .socials a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
